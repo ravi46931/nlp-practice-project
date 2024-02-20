@@ -127,6 +127,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+hate_env
+hate_env/
 
 # Spyder project settings
 .spyderproject
