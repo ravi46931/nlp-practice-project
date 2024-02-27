@@ -52,4 +52,15 @@ if __name__=="__main__":
     uvicorn.run(app, host=APP_HOST, port=APP_PORT)
 
 
+# from fastapi import FastAPI
+
+# app = FastAPI()
+
+
+# @app.get("/")
+# async def root():
+#     return {"message": "Hello World"}
+
+# if __name__=="__main__":
+#     uvicorn.run(app, host=APP_HOST, port=APP_PORT)
     
