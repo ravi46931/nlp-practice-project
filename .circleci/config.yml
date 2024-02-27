@@ -39,7 +39,6 @@ jobs:
           name: pull image from private repository
           command: docker pull 850349899521.dkr.ecr.us-east-1.amazonaws.com/hatedemo:latest
           
-          # docker push 850349899521.dkr.ecr.us-east-1.amazonaws.com/hatedemo:latest
       - run:
           name: run image
           command: docker run -d -p 8080:8080 850349899521.dkr.ecr.us-east-1.amazonaws.com/hatedemo:latest
